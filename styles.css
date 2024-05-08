@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+
+  & > div {
+    border: 2px dashed #aaa;
+    width: 50%;
+
+    &:first-child {
+      margin-right: 3px;
+    }
+  }
+}
+
+.drop-container {
+  text-align: center;
+  line-height: 200px;
+}
+
+.box {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
